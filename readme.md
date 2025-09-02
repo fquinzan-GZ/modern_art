@@ -1,0 +1,1 @@
+Ejecutar sasss  con la terminal: sass --watch  sass//app.scss css/style.css

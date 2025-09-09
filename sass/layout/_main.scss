@@ -129,7 +129,6 @@ p{
 }
 }
 
-
     .button{
     @include breakpoint(mobile){
     margin-left: 15px;
@@ -242,6 +241,7 @@ p{
  }
 
   @include breakpoint(desktop){
+
     margin-left: 80px;
     margin-bottom: 0;
     position: relative;
@@ -272,10 +272,10 @@ img{
         }
         @include breakpoint(desktop){
             left:600px;
-            height: 300px;
+            height: 330px;
             width: 555px;
             position: relative;
-            top:-150px;
+            top:-130px;
             }
 } 
 
@@ -290,10 +290,10 @@ img{
                 padding-left: 20px;
             }
         @include breakpoint(desktop){
-                width: 750px;
-                height: 600px;
+                width: 650px;
+                height: 625px;
                 position: relative;
-                top:-300px;
+                top:-320px;
             }
             }
     
@@ -317,10 +317,10 @@ img{
             }
         @include breakpoint(desktop){
             position: relative;
-            width: 400px;
+            width: 500px;
             height: 310px;
-            top:-590px;
-            left: 5px;
+            top:-950px;
+            left: 670px;
             
         }
         
@@ -369,11 +369,11 @@ p{
     }
 
     @include breakpoint(desktop){
-        width: 400px;
+        width: 500px;
         height: 280px;
         position: relative;
-        top: -585px;
-        left:760px;
+        top: -920px;
+        left:670px;
     }
 
 h3{
